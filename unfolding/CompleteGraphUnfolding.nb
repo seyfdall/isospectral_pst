@@ -1,0 +1,133 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4004,        125]
+NotebookOptionsPosition[      3426,        107]
+NotebookOutlinePosition[      3828,        123]
+CellTagsIndexPosition[      3785,        120]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Solve", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"a1", "==", 
+      RowBox[{"b1", "+", 
+       RowBox[{
+        RowBox[{"b6", "^", "2"}], "/", 
+        RowBox[{"(", 
+         RowBox[{"\[Lambda]", "-", "b5"}], ")"}]}]}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"a2", "==", 
+      RowBox[{"b2", "+", 
+       RowBox[{"b6", " ", 
+        RowBox[{"b4", "/", 
+         RowBox[{"(", 
+          RowBox[{"\[Lambda]", "-", "b5"}], ")"}]}]}]}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"a3", "==", 
+      RowBox[{"b3", "+", 
+       RowBox[{
+        RowBox[{"b4", "^", "2"}], "/", 
+        RowBox[{"(", 
+         RowBox[{"\[Lambda]", "-", "b5"}], ")"}]}]}]}]}], 
+    "\[IndentingNewLine]", "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{"b1", ",", "b2", ",", "b3", ",", "b4", ",", "b5", ",", "b6"}], 
+    "}"}]}], "\[IndentingNewLine]", "]"}]], "Input",
+ CellChangeTimes->{{3.966090121712511*^9, 3.966090137960661*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"7de002ac-e773-4bb1-ad79-72b23d2adc7b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Solve", "svars", 
+   "\"Equations may not give solutions for all \\\"solve\\\" variables.\"", 2,
+    4, 2, 34847140807359412336, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.966090140418027*^9},
+ CellLabel->
+  "During evaluation of \
+In[4]:=",ExpressionUUID->"5e9b0e04-0b27-406f-814d-be55b02bbb27"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"b1", "\[Rule]", 
+      FractionBox[
+       RowBox[{
+        RowBox[{"a1", " ", "b5"}], "+", 
+        SuperscriptBox["b6", "2"], "-", 
+        RowBox[{"a1", " ", "\[Lambda]"}]}], 
+       RowBox[{"b5", "-", "\[Lambda]"}]]}], ",", 
+     RowBox[{"b2", "\[Rule]", 
+      FractionBox[
+       RowBox[{
+        RowBox[{"a2", " ", "b5"}], "+", 
+        RowBox[{"b4", " ", "b6"}], "-", 
+        RowBox[{"a2", " ", "\[Lambda]"}]}], 
+       RowBox[{"b5", "-", "\[Lambda]"}]]}], ",", 
+     RowBox[{"b3", "\[Rule]", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["b4", "2"], "+", 
+        RowBox[{"a3", " ", "b5"}], "-", 
+        RowBox[{"a3", " ", "\[Lambda]"}]}], 
+       RowBox[{"b5", "-", "\[Lambda]"}]]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"b1", "\[Rule]", "a1"}], ",", 
+     RowBox[{"b2", "\[Rule]", "a2"}], ",", 
+     RowBox[{"b3", "\[Rule]", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["b4", "2"], "+", 
+        RowBox[{"a3", " ", "b5"}], "-", 
+        RowBox[{"a3", " ", "\[Lambda]"}]}], 
+       RowBox[{"b5", "-", "\[Lambda]"}]]}], ",", 
+     RowBox[{"b6", "\[Rule]", "0"}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.9660901404254217`*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"d2d1d39c-4a4d-414a-abe3-5edf4e8b5bc1"]
+}, Open  ]]
+},
+WindowSize->{606., 659.25},
+WindowMargins->{{Automatic, -921.75}, {Automatic, -22.5}},
+FrontEndVersion->"13.1 for Linux x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"ce3a3b75-525b-43ee-a8fb-6d05121b8423"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1111, 30, 182, "Input",ExpressionUUID->"7de002ac-e773-4bb1-ad79-72b23d2adc7b"],
+Cell[1694, 54, 357, 9, 28, "Message",ExpressionUUID->"5e9b0e04-0b27-406f-814d-be55b02bbb27"],
+Cell[2054, 65, 1356, 39, 141, "Output",ExpressionUUID->"d2d1d39c-4a4d-414a-abe3-5edf4e8b5bc1"]
+}, Open  ]]
+}
+]
+*)
+
