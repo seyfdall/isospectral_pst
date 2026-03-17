@@ -1,0 +1,1 @@
+{"track": "gpu_numeric", "instance_id": 0, "n": 6, "p": 0.5, "seed": 347712782, "kept_vertex": 0, "elapsed_sec": 0.06249094009399414, "status": "error", "n_candidates_evaluated": 0, "n_matches": 0, "recovered_original": false, "extra": {"error": "Singular matrix", "backend": "numpy"}}

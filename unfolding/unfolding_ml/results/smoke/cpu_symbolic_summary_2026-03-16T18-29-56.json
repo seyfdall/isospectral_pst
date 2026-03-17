@@ -1,0 +1,23 @@
+{
+  "track": "cpu_symbolic",
+  "timestamp": "2026-03-16T18:29:56",
+  "args": {
+    "n_instances": 1,
+    "n": 4,
+    "p": 0.5,
+    "seed": 7,
+    "kept_vertex": 0,
+    "n_atlas_max": 4,
+    "max_checks": 20000,
+    "time_limit_sec": 30.0,
+    "output_dir": "results/smoke"
+  },
+  "summary": {
+    "n_instances": 1,
+    "n_success": 1,
+    "n_failed": 0,
+    "mean_elapsed_sec": 5.513159275054932,
+    "total_elapsed_sec": 5.513159275054932,
+    "recovery_rate": 1.0
+  }
+}

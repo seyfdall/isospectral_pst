@@ -1,0 +1,35 @@
+{
+  "track": "gpu_numeric",
+  "timestamp": "2026-03-16T18:30:20",
+  "args": {
+    "n_instances": 1,
+    "n": 6,
+    "p": 0.5,
+    "seed": 7,
+    "kept_vertex": 0,
+    "n_candidates": 2000,
+    "candidate_p": 0.5,
+    "candidate_seed_offset": 10000,
+    "lambdas": [
+      -5.0,
+      -3.0,
+      -1.5,
+      1.25,
+      2.5,
+      4.0
+    ],
+    "tol": 1e-08,
+    "regularization_eps": 1e-08,
+    "backend": "numpy",
+    "output_dir": "results/smoke"
+  },
+  "summary": {
+    "n_instances": 1,
+    "n_success": 1,
+    "n_failed": 0,
+    "mean_elapsed_sec": 0.04149627685546875,
+    "total_elapsed_sec": 0.04149627685546875,
+    "recovery_rate": 1.0
+  },
+  "backend": "numpy"
+}

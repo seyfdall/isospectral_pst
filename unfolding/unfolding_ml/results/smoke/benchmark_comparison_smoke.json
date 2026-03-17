@@ -1,0 +1,89 @@
+{
+  "cpu_summary_path": "results/smoke/cpu_symbolic_summary_2026-03-16T18-29-56.json",
+  "gpu_summary_path": "results/smoke/gpu_numeric_summary_2026-03-16T18-30-20.json",
+  "cpu": {
+    "track": "cpu_symbolic",
+    "timestamp": "2026-03-16T18:29:56",
+    "args": {
+      "n_instances": 1,
+      "n": 4,
+      "p": 0.5,
+      "seed": 7,
+      "kept_vertex": 0,
+      "n_atlas_max": 4,
+      "max_checks": 20000,
+      "time_limit_sec": 30.0,
+      "output_dir": "results/smoke"
+    },
+    "summary": {
+      "n_instances": 1,
+      "n_success": 1,
+      "n_failed": 0,
+      "mean_elapsed_sec": 5.513159275054932,
+      "total_elapsed_sec": 5.513159275054932,
+      "recovery_rate": 1.0
+    }
+  },
+  "gpu": {
+    "track": "gpu_numeric",
+    "timestamp": "2026-03-16T18:30:20",
+    "args": {
+      "n_instances": 1,
+      "n": 6,
+      "p": 0.5,
+      "seed": 7,
+      "kept_vertex": 0,
+      "n_candidates": 2000,
+      "candidate_p": 0.5,
+      "candidate_seed_offset": 10000,
+      "lambdas": [
+        -5.0,
+        -3.0,
+        -1.5,
+        1.25,
+        2.5,
+        4.0
+      ],
+      "tol": 1e-08,
+      "regularization_eps": 1e-08,
+      "backend": "numpy",
+      "output_dir": "results/smoke"
+    },
+    "summary": {
+      "n_instances": 1,
+      "n_success": 1,
+      "n_failed": 0,
+      "mean_elapsed_sec": 0.04149627685546875,
+      "total_elapsed_sec": 0.04149627685546875,
+      "recovery_rate": 1.0
+    },
+    "backend": "numpy"
+  },
+  "comparison_rows": [
+    {
+      "metric": "n_instances",
+      "cpu_symbolic": 1.0,
+      "gpu_numeric": 1.0
+    },
+    {
+      "metric": "n_success",
+      "cpu_symbolic": 1.0,
+      "gpu_numeric": 1.0
+    },
+    {
+      "metric": "mean_elapsed_sec",
+      "cpu_symbolic": 5.513159275054932,
+      "gpu_numeric": 0.04149627685546875
+    },
+    {
+      "metric": "total_elapsed_sec",
+      "cpu_symbolic": 5.513159275054932,
+      "gpu_numeric": 0.04149627685546875
+    },
+    {
+      "metric": "recovery_rate",
+      "cpu_symbolic": 1.0,
+      "gpu_numeric": 1.0
+    }
+  ]
+}

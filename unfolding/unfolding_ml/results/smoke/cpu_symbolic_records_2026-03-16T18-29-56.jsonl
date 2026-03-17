@@ -1,0 +1,1 @@
+{"track": "cpu_symbolic", "instance_id": 0, "n": 4, "p": 0.5, "seed": 347712782, "kept_vertex": 0, "elapsed_sec": 5.513159275054932, "status": "ok", "n_candidates_evaluated": 200, "n_matches": 2, "recovered_original": true, "extra": {"target_r": "(lambda**2 - 1)/(lambda**3 - 2*lambda)", "timed_out": false, "n_raw_matches": 4}}
